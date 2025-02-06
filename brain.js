@@ -45,7 +45,7 @@ function playSong(index) {
   currentIndex = index;
   audio.src = songs[currentIndex];
   currentSong.textContent =
-    "Now Playing: " +
+    "Now Playing : " +
     songs[currentIndex]
       .replace("audio/", "")
       .replace(/_/g, " ")
@@ -54,13 +54,6 @@ function playSong(index) {
   highlightCurrentSong();
 }
 
-// function togglePlayPause() {
-//   if (audio.paused) {
-//     audio.play();
-//   } else {
-//     audio.pause();
-//   }
-// }
 
 function nextSong() {
   currentIndex = (currentIndex + 1) % songs.length;
