@@ -64,6 +64,7 @@
   font-size: 18px;
   font-family: "Great Vibes", cursive;
   transition: background 0.3s;
+  z-index: 2;
 }
 .controls button:hover {
   background: #d32f2fa8;
