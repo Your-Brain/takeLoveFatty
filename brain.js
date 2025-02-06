@@ -39,6 +39,7 @@ playPauseBtn.addEventListener("click", () => {
       playSong(0);
     }
   }
+    highlightCurrentSong();
 });
 
 function playSong(index) {
