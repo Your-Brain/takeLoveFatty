@@ -32,6 +32,8 @@ canvas {
   left: 50%;
   transform: translate(-50%, -50%);
   animation: fade 13s;
+padding: 0 20px;
+
 }
 @keyframes fade {
   0% {
